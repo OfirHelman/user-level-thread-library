@@ -1,0 +1,9 @@
+{
+  "name": "Ubuntu",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "postCreateCommand": "apt update && apt install -y build-essential gdb",
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "remoteUser": "root"
+}
